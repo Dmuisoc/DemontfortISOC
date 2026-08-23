@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ISOC DMU — Islamic Society, De Montfort University</title>
+<meta name="description" content="Creating Unity in Times of Division. Prayer times, halaqah, community and support for every DMU student.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<div id="site-header"></div>
+
+<header class="hero section--tight">
+  <div class="container hero__grid">
+    <div>
+      <p class="hero__arabic">السلام عليكم ورحمة الله وبركاته</p>
+      <h1>Wherever you are on your journey, you're welcome here.</h1>
+      <p class="lede">Muslim, curious, brand new to Leicester, or just looking for somewhere to sit — ISOC DMU is open to everyone. Learn, ask anything, meet people, and grow at your own pace.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="events.html">Explore events</a>
+        <a class="btn btn-ghost" href="qna.html">Ask a question</a>
+        <a class="btn btn-ghost" href="about.html">Join ISOC</a>
+      </div>
+
+      <div class="search-box" style="margin-top:34px; max-width:420px;">
+        <input id="global-search-input" type="search" placeholder="Search guides, events, Q&A…">
+        <button class="btn btn-primary" style="padding:.6em 1em;">Search</button>
+      </div>
+      <div id="global-search-results" class="search-results"></div>
+    </div>
+
+    <div class="ring-card">
+      <div id="home-ring"></div>
+      <div class="ring-card__foot">
+        <span>Leicester time</span>
+        <a href="prayer.html" style="color:var(--gold-high);">All times &amp; qibla →</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section section--edge-top">
+  <div class="container">
+    <p class="eyebrow">Reminder of the day</p>
+    <div id="home-reminder"></div>
+  </div>
+</section>
+
+<section class="section section--sage">
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:10px;">
+      <h2>What's on this week</h2>
+      <a class="btn-link" href="events.html">All events →</a>
+    </div>
+    <div id="home-events" class="grid grid--3" style="margin-top:24px;"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">Two spaces, one society</p>
+    <h2>Sisters' and Brothers' Corners</h2>
+    <div class="grid grid--2" style="margin-top:24px;">
+      <div class="card">
+        <span class="tag">Room 00.27</span>
+        <h3>Sisters' Corner</h3>
+        <p>Halaqah, socials, a sisters-only space with ablution next door, and someone to sit with on your first day.</p>
+        <a class="btn-link" href="community.html">Open the corner →</a>
+      </div>
+      <div class="card">
+        <span class="tag">Room 00.31</span>
+        <h3>Brothers' Corner</h3>
+        <p>Halaqah, football, Jumu'ah duties and the room that stays busy between lectures.</p>
+        <a class="btn-link" href="community.html">Open the corner →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--edge-top">
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:10px;">
+      <h2>Latest from the blog</h2>
+      <a class="btn-link" href="learn.html">All articles →</a>
+    </div>
+    <div id="home-blog" class="grid grid--2" style="margin-top:24px;"></div>
+  </div>
+</section>
+
+<section class="section section--ink">
+  <div class="container" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:24px;">
+    <div>
+      <p class="eyebrow">Donate</p>
+      <h2 style="margin-bottom:.2em;">The iftars run on what students give.</h2>
+      <p class="lede">Prayer room supplies, free Ramadan iftars and the food at every halaqah are paid for by donations.</p>
+    </div>
+    <a class="btn btn-primary" href="donate.html">Donate</a>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="js/site.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
